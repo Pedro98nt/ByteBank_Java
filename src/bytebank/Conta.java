@@ -13,6 +13,25 @@ public class Conta {
 	  this.saldo = this.saldo + valor;
 		
 	}
+  
+   /*
+    * adicionando os metodos no sacar
+    */
+  
+  
+    public boolean   saca(double valor){
+    	if(this.saldo >= valor) {
+    		this.saldo = this.saldo - valor;
+    		return true;
+    	}else {
+    		return false;
+    		
+    		
+    	}
+		
+    	
+	  
+  }
 	
 
 }
