@@ -7,5 +7,12 @@ public class Conta {
 	int numero;
 	String titular;
 	
+	/*aplicando metodo */
+  public	void deposita(double valor) {
+	  
+	  this.saldo = this.saldo + valor;
+		
+	}
+	
 
 }
