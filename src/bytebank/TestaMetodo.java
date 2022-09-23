@@ -16,8 +16,21 @@ public class TestaMetodo {
 		System.out.println(contaDoPedro.saldo);
 
 		System.out.println(conseguiRetirar);
-		System.out.println(" teste de commit no github");
+		// System.out.println(" teste de commit no github");
+
+		Conta contaDaMarcela = new Conta();
+		contaDaMarcela.deposita(1000);
+
+		boolean sucessoTransferencia = contaDaMarcela.transfere(300, contaDoPedro);
+        if(sucessoTransferencia) {
+            System.out.println("transferencia com sucesso");
+        } else {
+            System.out.println("faltou dinheiro");
+		System.out.println(contaDaMarcela.saldo);
+		System.out.println(contaDoPedro.saldo);
+		
 
 	}
 
+	}
 }
