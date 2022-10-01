@@ -34,6 +34,9 @@ public class CriaConta {
 		
 		System.out.println(primeiraConta.saldo * segundaConta.saldo);
 		
+		System.out.println("teste beta ");
+		
+		
 		
 		
 		

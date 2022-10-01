@@ -6,6 +6,7 @@ public class Conta {
 	int agencia;
 	int numero;
 	String titular;
+	double status;
 	
 	/*aplicando metodo */
   public	void deposita(double valor) {
